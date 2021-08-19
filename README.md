@@ -1,3 +1,1 @@
-# BBG-Excel
-
-Alphavantage is a free api for some financial data. I wrote a script to wrap the alphavantage data functionality in an xlwings function so that you can call get financial data directly into excel from alphavantage. All for free!
+Alphavantage is a python package that allows you to get loads of financial data for free through their API. This repo is a wrapper around the pure API from alphavantage. It uses the xlwings module to run python code from excel through a function. You can use a function in excel to get financial data from alphavantage (in a similar fashion to =BDP(...) in bloomberg).
